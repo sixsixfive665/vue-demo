@@ -20,6 +20,9 @@ export default {
   methods: {
     XiuxiuXiu () {},
   },
+  mounted () {
+    console.log(this.$store.state.app.name)
+  }
 }
 </script>
 
